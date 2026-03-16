@@ -1,0 +1,13 @@
+import time
+
+def analyze_traffic(log_line):
+    if "TCP connection" in log_line:
+        print("Service communication detected")
+
+def stream_logs():
+    while True:
+        log = "TCP connection detected"
+        analyze_traffic(log)
+        time.sleep(2)
+
+stream_logs()

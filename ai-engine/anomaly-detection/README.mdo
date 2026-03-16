@@ -11,4 +11,5 @@ Key responsibilities:
 - generate optimization recommendations
 
 This layer provides the decision logic used by the
-automation operator to perform cluster optimizations.
+automation operator to perform cluster optimizations.o
+
